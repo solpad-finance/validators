@@ -173,6 +173,7 @@ HTTPS certificates can be obtained through any certificate authority. One such C
 prevent DDOS attacks, Cloudflare provides SSL certificates. If you are running validators behind a firewall and are not 
 concerned with SSL, you can comment out the entire NGINX server listening on port 443. 
 
+
 #### Deploying to the load balancer
 Once the load balancer machine is provisioned and NGINX is configured, add the URL or IP address of the new machines
 to the `deploy/hosts.yaml` file in the `load_balancers` group. An example load balancer for each setup is provided. 
